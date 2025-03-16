@@ -11,7 +11,7 @@ main(){
     bool purchase = false;
     string print = "";
 
-    printf("Add expense");
+    cout << "add expense"
     cin >> expense;
     
     if(expense > budget || expense > Bank ){
